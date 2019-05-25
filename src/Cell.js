@@ -6,7 +6,7 @@ export default class Cell extends Component {
     super(props)
   }
 
-  handleClick =() => {
+  handleClick = () => {
     this.props.getCurrentColor
   }
   render() {
